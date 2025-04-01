@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/Form.module.css';
 
 
 export default function PetTools() {
@@ -21,6 +21,7 @@ export default function PetTools() {
                 <h2>Transactions:</h2>
                 <textarea id="transactioninput" name="transinput" rows="30" cols="80"></textarea>
             </div>
+            <p></p>
             <div id="button">
                 <button className={styles.buttontransaction} onClick={processClicked}>Process!</button> 
             </div>
